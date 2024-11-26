@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Player : Canplay
 {
+     
     public static Player Instance { get; private set; }
 
     private void Awake()
